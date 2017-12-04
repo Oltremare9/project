@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:columnCount="4">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_columnSpan="4"
+        android:layout_gravity="center_horizontal"
+        android:text="asdfasfdasfsdafa"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+
+    <TextView
+
+        android:layout_columnSpan="1"
+        android:layout_gravity="center_horizontal"
+        android:text="校区"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:layout_width="93dp"
+        android:layout_height="45dp" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_columnSpan="1"
+
+        android:layout_height="45dp"
+        android:layout_width="100dp" />
+
+    <TextView
+        android:layout_columnSpan="2"
+
+        />
+
+
+    <TextView
+        android:layout_width="96dp"
+        android:layout_height="45dp"
+        android:layout_columnSpan="1"
+        android:layout_gravity="center_horizontal"
+        android:text="星期"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_columnSpan="1"
+        android:layout_width="102dp"
+        android:layout_height="45dp" />
+
+    <TextView
+        android:layout_width="70dp"
+        android:layout_height="45dp"
+        android:layout_columnSpan="1"
+        android:layout_gravity="center_horizontal"
+        android:text="时间"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textStyle="bold" />
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_columnSpan="1"
+        android:layout_width="134dp"
+        android:layout_height="45dp" />
+</GridLayout>
