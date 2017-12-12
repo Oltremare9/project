@@ -13,8 +13,7 @@ import android.view.ViewGroup;
 import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.CompoundButton;
-import android.widget.RadioButton;
-import android.widget.RadioGroup;
+
 import android.widget.TextView;
 
 import org.w3c.dom.Text;
@@ -130,9 +129,7 @@ public class Preorder extends AppCompatActivity {
                 if (id>0) {
                     //发送给服务器端
                     //判断后接收反馈
-                }
-                ;
-
+                };
             }
         }
         ok.setOnClickListener(new listen());

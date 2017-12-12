@@ -24,6 +24,8 @@
         </activity>
         <activity android:name=".Preorder">
         </activity>
+        <activity android:name=".FragmentMain">
+        </activity>
     </application>
 
 </manifest>
