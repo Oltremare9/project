@@ -25,6 +25,8 @@ import static com.example.abccb.project.R.id.imageView2;
 
 public class Menus extends AppCompatActivity {
 
+    Button button5;
+    Button button3;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);

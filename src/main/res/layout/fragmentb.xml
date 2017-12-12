@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:columnCount="9">
+
+
+
+    <TextView
+android:height="200px"
+        android:layout_columnSpan="9"
+        android:layout_width="wrap_content"
+         />
+
+    <TextView
+
+        android:layout_columnSpan="2"
+        android:layout_width="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/A1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="A1" />
+
+    <TextView
+
+        android:layout_columnSpan="3"
+        android:layout_width="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/B1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="B1" />
+
+    <TextView
+
+        android:layout_columnSpan="2"
+        android:layout_width="wrap_content" />
+
+    <TextView
+        android:width="50px"
+        android:layout_columnSpan="1"
+        android:layout_width="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/A2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="A2" />
+
+
+    <TextView
+        android:text="A桌"
+        android:layout_columnSpan="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/A3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="A3" />
+
+    <TextView
+
+        android:id="@+id/textView5"
+
+        android:layout_width="100px"
+        android:layout_columnSpan="1" />
+
+    <CheckBox
+        android:id="@+id/B2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="B2" />
+
+
+    <TextView
+        android:text="B桌"
+        android:layout_gravity="center_horizontal"
+        android:layout_columnSpan="1"
+        android:layout_width="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/B3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="B3" />
+
+    <TextView
+
+        android:layout_columnSpan="1"
+        android:layout_width="wrap_content" />
+
+
+    <TextView
+
+        android:layout_columnSpan="2"
+        android:layout_width="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/A4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="A4" />
+
+
+    <TextView
+
+        android:layout_columnSpan="3"
+        android:layout_width="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/B4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="B4" />
+
+    <TextView
+
+        android:layout_columnSpan="2"
+        android:layout_width="wrap_content" />
+
+
+    <TextView
+        android:height="100px"
+        android:layout_columnSpan="9"
+        android:text="走道"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content" />
+
+    <TextView
+
+        android:layout_columnSpan="2"
+        android:layout_width="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/C1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="C1" />
+
+    <TextView
+
+        android:layout_columnSpan="3"
+        android:layout_width="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/D1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="D1" />
+
+    <TextView
+
+        android:layout_columnSpan="2"
+        android:layout_width="wrap_content" />
+
+    <TextView
+        android:width="50px"
+        android:layout_columnSpan="1"
+        android:layout_width="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/C2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="C2" />
+
+
+    <TextView
+        android:text="C桌"
+        android:layout_columnSpan="1"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/C3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="C3" />
+
+    <TextView
+
+
+
+        android:layout_width="70px"
+        android:layout_columnSpan="1" />
+
+    <CheckBox
+        android:id="@+id/D2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="D2" />
+
+
+    <TextView
+        android:text="D桌"
+        android:layout_gravity="center_horizontal"
+        android:layout_columnSpan="1"
+        android:layout_width="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/D3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="D3" />
+
+    <TextView
+
+        android:layout_columnSpan="1"
+        android:layout_width="wrap_content" />
+
+
+    <TextView
+
+        android:layout_columnSpan="2"
+        android:layout_width="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/C4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="C4" />
+
+
+    <TextView
+
+        android:layout_columnSpan="3"
+        android:layout_width="wrap_content" />
+
+    <CheckBox
+        android:id="@+id/D4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="1"
+        android:text="D4" />
+
+    <TextView
+
+        android:layout_columnSpan="2"
+        android:layout_width="wrap_content" />
+
+
+
+
+
+
+    <TextView
+        android:height="200px"
+        android:layout_columnSpan="9"
+        android:text="汇文吧入口"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="143dp" />
+
+
+    <TextView
+
+        android:id="@+id/seat"
+        android:layout_columnSpan="2"
+        android:layout_width="50px" />
+
+
+    <TextView
+
+
+        android:layout_columnSpan="1"
+        android:layout_width="wrap_content" />
+
+    <Button
+        android:id="@+id/ok"
+        android:text="预约"
+        android:layout_columnSpan="2"
+
+        />
+
+    <Button
+        android:id="@+id/cancle"
+        android:text="撤销"
+        android:layout_columnSpan="2"
+
+        />
+
+
+</GridLayout>
