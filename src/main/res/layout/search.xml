@@ -3,7 +3,7 @@
     android:layout_width="match_parent" android:layout_height="match_parent" android:columnCount="4">
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="365dp"
         android:layout_height="72dp"
         android:layout_columnSpan="4"
         android:layout_gravity="center_horizontal"
@@ -19,7 +19,7 @@
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textStyle="bold"
-        android:layout_width="93dp"
+        android:layout_width="96dp"
         android:layout_height="45dp" />
 
     <Spinner
@@ -49,7 +49,7 @@
     <Spinner
         android:id="@+id/spinner2"
         android:layout_columnSpan="1"
-        android:layout_width="102dp"
+        android:layout_width="100dp"
         android:layout_height="45dp" />
 
     <TextView
